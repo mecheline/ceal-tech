@@ -4,7 +4,7 @@
     }
     
     body {
-        background: url(./images/background1.jpg);
+        background: url(./images/slider6.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -17,6 +17,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
     .pangolin {
         font-family: 'Pangolin', cursive;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+    .texturina {
+        font-family: 'Texturina', serif;
     }
     
     .company-name {
@@ -58,6 +63,8 @@
         color: darkgoldenrod;
         width: 100%
     }
+    
+    .button-color:checked {}
     
     .column {
         width: 33.33%;
@@ -122,4 +129,68 @@
     .our-produts {
         text-align: center;
         color: wheat;
+    }
+    
+    .profile-row {
+        margin-top: 60px
+    }
+    
+    .company-profile-title {
+        color: wheat;
+        text-align: center
+    }
+    
+    .company-profile-body {
+        margin-top: 40px;
+        color: white;
+        opacity: 0.6;
+    }
+    
+    .hr-style {
+        margin: auto;
+        width: 100px;
+        border: 0.5px solid darkgoldenrod
+    }
+    
+    .certificate-row {
+        margin-top: 60px
+    }
+    
+    .certificate-icon {
+        text-align: center;
+        color: wheat
+    }
+    
+    .certificates {
+        text-align: center;
+        color: darkgoldenrod
+    }
+    
+    .parallax-container {
+        height: 200px;
+    }
+    
+    .footer-top {}
+    
+    .slow-spin {
+        -webkit-animation: fa-spin 6s infinite linear;
+        animation: fa-spin 6s infinite linear;
+    }
+    
+    .connect-with-us {
+        text-align: center;
+        color: wheat
+    }
+    
+    .icons-social {
+        text-align: center
+    }
+    
+    .icon-space {
+        padding: 20px;
+    }
+    
+    .push-style {
+        z-index: 1 !important;
+        width: 70%
     }
